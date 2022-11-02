@@ -1,0 +1,42 @@
+body{
+    width: 1024px;
+    margin: auto
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(240,240,240);
+    color: rgb(165,165,2);
+    font-family: sans-serif
+}
+#img_desc{
+    list-style: none;
+    padding: 0px
+}
+h2{
+    text-decoration: underline;
+    background-color: rgb(240,240,240);
+    padding-bottom: 5px;
+    color: rgb(165,165,2);
+     font-family: sans-serif;
+    font-weight: 500
+}
+span{
+    text-decoration: line-through
+}
+
+#comments > p{
+    font-style: italic;
+    background-color: rgb(255,255,168);
+}
+#comments{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#footer{
+    float: right;
+        
+}
+a > img{
+    float: right;
+}
