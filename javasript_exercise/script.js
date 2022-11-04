@@ -61,14 +61,13 @@ function reverse(str){
 }
 
 function findLongestWord(str){
-    var index=0, maxLength=str[0].length;
+    var maxLength=str[0].length;
     for(var i=1; i<str.length; i++){
        if(str[i].length>maxLength){
         maxLength=str[i].length;
-        index=i;
        }
     }
-    return str[index];
+    return maxLength;
 }
 
 function  filterLongWords(str , val){
@@ -103,7 +102,7 @@ function myFunctionTest(expected, found) {
   console.log("Expected output of sum([1,2,3,4,5]) is 15" + myFunctionTest(15, sum([1,2,3,4,5]))); //sum(a)
   console.log("Expected output of multiply([1,2,3,4,5]) is 120" + myFunctionTest(120, multiply([1,2,3,4,5]))); //multiply(a)
   console.log("Expected output of reverse(Alazar) is razalA  " + myFunctionTest("razalA", reverse("Alazar"))); //reverse(str)
-  console.log("Expected output of findLongestWord([JS,is,hard,for,Noobs]) is Noobs  " + myFunctionTest("Noobs", findLongestWord(["JS","is","hard","for","Noobs"]))); //findLongestWord(str)
+  console.log("Expected output of findLongestWord([JS,is,hard,for,Noobs]) is 5 that is length of Noobs  " + myFunctionTest(5, findLongestWord(["JS","is","hard","for","Noobs"]))); //findLongestWord(str)
   console.log("Expected output of filterLongWords([JS,is,hard,for,Noobs] , 3) is ['hard', 'Noobs']  " + myFunctionTest(["hard", "Noobs"], filterLongWords(["JS","is","hard","for","Noobs"] , 3))); //filterLongWords(str , val)
   console.log("Expected output of jsfiddle([1,2,3,4,5,6]) is [10, 20, 30, 40, 50, 60]  " + myFunctionTest(720, jsfiddle([1,2,3,4,5,6]))); //jsfiddle(a) //not working
   
