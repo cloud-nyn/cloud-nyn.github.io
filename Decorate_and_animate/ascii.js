@@ -16,7 +16,6 @@ window.onload = function() {
         display("idle");   
         toggleButton();
     };
-
     document.getElementById("animation").onchange = function() {
         frame = 0;
         display("idle"); 
@@ -45,7 +44,6 @@ window.onload = function() {
             if(parts.length === frame){
                 frame = 0;
             }
-    
             txtarea.value = parts[frame];
         }
         frame++;
