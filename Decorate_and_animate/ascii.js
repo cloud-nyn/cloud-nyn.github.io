@@ -40,7 +40,6 @@ window.onload = function() {
             txtarea.value = ANIMATIONS[document.getElementById("animation").value];
         } else {
             let parts = ANIMATIONS[document.getElementById("animation").value].split("=====");
-
             if(parts.length === frame){
                 frame = 0;
             }
