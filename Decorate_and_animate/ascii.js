@@ -26,7 +26,7 @@ window.onload = function() {
         resetInterval();
     };
     document.getElementById("turbo").onchange = function() {
-        speed = document.getElementById("turbo").checked ? 50 : 250;
+        speed = document.getElementById("turbo").checked ? 350 : 250;
         resetInterval();
     };
     function toggleButton(){
