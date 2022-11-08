@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>
+            Regular Expressions
+        </title>
+        <link href="page1.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <span id="nav-ish"><h1>MUM Golden Dome Market:::SRM System</h1>
+                <span id="links">
+                    <a href="#" id="product">Products</a>
+                    <a href="#">Suppliers</a>
+                </span>
+            </span>
+            <span>
+                <p>Hello!</p> 
+                <button>Sign Out</button>
+            </span>
+        </header>
+        <h2>New Product Form</h2>
+        <div id="form">
+            <div id="column1">
+                <div>
+                    <p>Product Number</p>
+                    <input type="text">
+                </div>
+                <div>
+                    <p>Name</p>
+                    <input type="text">
+                </div>
+                <div>
+                    <p>Unit Price</p>
+                    <input type="text" placeholder="0.0">
+                </div>
+            </div>
+            <div id="column2">
+                <div>
+                    <p>Quantity in stock</p>
+                    <input type="text" placeholder="0">
+                </div>
+                <div>
+                    <p>Supplier</p>
+                    <select>
+                        <option>Supplier 1</option>
+                        <option>Supplier 2</option>
+                        <option>Supplier 3</option>
+                    </select>
+                </div>
+                <div>
+                    <p>Date supplied</p>
+                    <input type="text" placeholder="YYYY-MM-DD">
+                    <p id="valid-date">Enter a vaild Date</p>
+                </div>
+                
+                <div id="button-container">
+                    <button type="reset" id="reset-btn">Reset</button>
+                    <button id="cancel-btn">Cancel</button>
+                    <button id="add-btn">Add Product</button>
+                </div>          
+            </div>
+        </div>
+    </body>
+</html>

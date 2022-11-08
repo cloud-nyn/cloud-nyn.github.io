@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>
+            Regular Expressions
+        </title>
+        <link href="page2.css" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <p>Email address</p>
+            <input type="email" placeholder="Enter Email" pattern="[A-Za-z0-9_.+\-]+@[a-z0-9.\-]+\.[a-z]{2,}"
+            title="Please fill the email in the abc@def.com format." required>
+            <p id="under-txt">We'll never share your email with anyone else</p>
+            <p>Password</p>
+            <input type="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}"
+            title="Please fill the passoword at least 10 characters long in combination of numbers, lower case letters and upper case letters." required>
+            <p>Phone</p>
+            <input type="text" placeholder="Phone numbeer" pattern="(\+1)?\s?\d{3}\s?\d{3}\s?\d{4}"
+            title="Phone number should be in format, +1 xxx xxx xxxx" required>
+            <p>URL</p>
+            <input type="text" placeholder="URL" pattern="https?://.*"
+            title="Please enter the URL in https:// format" required>
+            <span><input type="checkbox"> Check me out </span>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    background-color: #34A6E8;
+    color: ghostwhite;
+    height: 80px;
+    padding-left: 10px;
+    padding-right:10px;
+    
+    
+}
+h1{
+    font-weight:100;
+}
+span{
+    display: flex; 
+    margin-top: auto;
+    margin-bottom: auto
+}
+#nav-ish{
+    justify-content: space-evenly;
+    
+   /* margin-left: -40px;*/
+}
+span > button{
+    height: 35px;
+    margin-left: 15px;
+    background-color: #eceef1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+span > p{
+    margin-top: auto;
+    margin-bottom: auto
+}
+
+
+#links > a {
+    text-decoration: none;
+    color: white;  
+    padding-left: 60px;
+    padding-right: 50px;
+}
+#nav-ish > span{
+    margin-left: 90px;  
+}
+
+#product{
+     border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+h2{
+    margin-left: 280px;
+}
+#form{
+    display: grid;
+    grid-template-areas: 'a b';
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+input, select{
+    height: 40px;
+    width: 100%; 
+    border: 1px solid #cdd3d9;
+    border-radius: 5px; 
+}
+div>p{
+    margin-bottom: 15px;
+}
+
+#valid-date{
+    margin-top: 0px;
+    font-size: 10.5pt;
+    color: darkgray;
+}
+
+#column1{
+    margin-right: 45px;
+}
+
+#button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    width: 100%;
+}
+#button-container > button{
+   margin: 20px;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 0
+}
+#reset-btn{
+    height: 40px;
+    border: 2px solid #002e69;
+    color: #002e69;
+}
+#cancel-btn{
+     height: 40px;
+    border: 2px solid #db4a00;
+    color: #db4a00;
+}
+#add-btn{
+     height: 40px;
+    border: 2px solid #2ea4e7;
+    color: #2ea4e7
+}
